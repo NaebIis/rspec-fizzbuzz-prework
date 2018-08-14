@@ -1,5 +1,6 @@
 def fizzbuzz(n) 
 remainderWhenDividedBy3 = n % 3
+remainderWhenDividedBy4 = n % 4
 remainderWhenDividedBy5 = n % 5
 remainderWhenDividedBy15 = n % 15
     if remainderWhenDividedBy3 == 0 
