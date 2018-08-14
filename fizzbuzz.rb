@@ -6,7 +6,7 @@ def fizzbuzz(n)
       return "Buzz"
     elsif n % 3 && n % 5 == 0 
       return "FizzBuzz"
-    else remainderWhenDividedBy4 == 0 
+    else  
       return nil
   end
 end
