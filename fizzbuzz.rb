@@ -8,8 +8,8 @@ remainderWhenDividedBy15 = n % 15
       return "Buzz"
     elsif remainderWhenDividedBy15 == 0 
       return "FizzBuzz"
-  elsif remainderWhenDividedBy4 ==
-    return false
+    else remainderWhenDividedBy4 == 0 
+      return "nil"
   end
 end
 
