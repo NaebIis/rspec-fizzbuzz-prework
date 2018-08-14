@@ -8,7 +8,7 @@ remainderWhenDividedBy35 = n % 3 && 5
     elsif remainderWhenDividedBy5 == 0
       return "Buzz"
     elsif remainderWhenDividedBy35 == 0 
-      return "FizzBuzz"
+      return "Fizz"
     else remainderWhenDividedBy4 == 0 
       return nil
   end
