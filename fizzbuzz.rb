@@ -4,7 +4,7 @@ remainderWhenDividedBy4 = n % 4
 remainderWhenDividedBy5 = n % 5
 remainderWhenDividedBy35 = n % 3 && 5
     if remainderWhenDividedBy3 == 0 
-      return"Fizz"
+      return"FizzBuzz"
     elsif remainderWhenDividedBy5 == 0
       return "Buzz"
     elsif remainderWhenDividedBy35 == 0 
