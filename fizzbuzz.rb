@@ -5,7 +5,7 @@ remainderWhenDividedBy5 = n % 5
 remainderWhenDividedBy15 = n % 3 && n % 5
     if n % 3 == 0 
       return"Fizz"
-    elsif remainderWhenDividedBy5 == 0
+    elsif n % 5 == 0
       return "Buzz"
     elsif remainderWhenDividedBy15 == 0 
       return "FizzBuzz"
