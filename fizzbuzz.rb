@@ -10,7 +10,7 @@ remainderWhenDividedBy15 = n % 15
     elsif remainderWhenDividedBy15 == 0 
       return "FizzBuzz"
     else remainderWhenDividedBy4 == 0 
-      return "nil"
+      return nil
   end
 end
 
