@@ -8,7 +8,7 @@ remainderWhenDividedBy15 = n % 15
       return "Buzz"
     elsif remainderWhenDividedBy15 == 0 
       return "FizzBuzz"
-  else
+  elsif remainderWhenDividedBy4 ==
     return false
   end
 end
