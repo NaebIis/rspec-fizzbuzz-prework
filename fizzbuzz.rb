@@ -7,7 +7,7 @@ remainderWhenDividedBy15 = n % 3 && n % 5
       return"Fizz"
     elsif n % 5 == 0
       return "Buzz"
-    elsif remainderWhenDividedBy15 == 0 
+    elsif n % 3 && n % 5 == 0 
       return "FizzBuzz"
     else remainderWhenDividedBy4 == 0 
       return nil
