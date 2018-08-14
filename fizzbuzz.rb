@@ -1,8 +1,5 @@
 def fizzbuzz(n) 
-remainderWhenDividedBy3 = n % 3
-remainderWhenDividedBy4 = n % 4
-remainderWhenDividedBy5 = n % 5
-remainderWhenDividedBy15 = n % 3 && n % 5
+
     if n % 3 == 0 
       return"Fizz"
     elsif n % 5 == 0
